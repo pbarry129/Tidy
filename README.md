@@ -122,7 +122,7 @@ colnames_temp <- gsub("^\\s+|\\s+$","",colnames_temp)
 colnames(data_mean_std)<-colnames_temp
 ```
 **Ensure the column names are now unique**
-``
+```
 colnames(data_mean_std)<-make.names(colnames(data_mean_std), unique=TRUE)
 ```
 **and produce first "tidy" table** 
