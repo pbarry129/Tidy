@@ -27,7 +27,7 @@ train_activity <-read.table("./train/y_train.txt",header=FALSE)
 activity <- rbind(test_activity, train_activity)
 ```
 **Assign a column name** 
-``
+```
 colnames(activity) <- c("activityid")
 ```
 **Read in test subject data**
