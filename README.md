@@ -1,7 +1,7 @@
 # Tidy
 Getting and Cleaning Data: Peer-graded assignment
 
-# R script to produce a tidy data set for accelerometer readings
+**R script to produce a tidy data set for accelerometer readings**
 
 **Install necessary packages**
 ```
